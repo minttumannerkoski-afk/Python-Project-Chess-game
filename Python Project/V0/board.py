@@ -1,3 +1,9 @@
+"""Board module.
+
+Provides the Board class, which stores piece positions and prints the board.
+Version 0: supports manual piece moves without validating chess rules.
+"""
+
 '''class Board:
   def __init__(self):
       self.grid = [[None for _ in range(8)] for _ in range(8)]
