@@ -11,7 +11,11 @@
     self.grid[row][col] = piece
     piece.position = (row, col)
      
-    #board = [[Board(col, row) for row in range(1, 9)] for col in range(1, 9)]'''
+    #board = [[Board(col, row) for row in range(1, 9)] for col in range(1, 9)]
+    
+    class Board:
+    Represents a chessboard using a dict mapping squares (e.g., 'e2') to pieces.
+'''
 
 from pieces import INITIAL_PIECES
 
