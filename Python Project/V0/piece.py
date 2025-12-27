@@ -1,4 +1,4 @@
-INITIAL_PIECE = {
+INITIAL_PIECES = {
     # White pieces
     "a1": "R", "b1": "N", "c1": "B", "d1": "Q",
     "e1": "K", "f1": "B", "g1": "N", "h1": "R",
